@@ -34,7 +34,7 @@ function brickCalculator(n){
         var total = feet1 * 1000;
         
     }
-    else if(n <= 20){
+    else if(n > 10 && n <= 20){
         var feet2 = n* 12
         var total = feet2 * 1000;
         
